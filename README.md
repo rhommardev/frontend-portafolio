@@ -1,1 +1,1 @@
-#Projeto de estudo de desenvolvimento de software do curso SCTEC 
+Projeto de estudo de desenvolvimento de software do curso SCTEC 
