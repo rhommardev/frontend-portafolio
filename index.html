@@ -65,12 +65,36 @@
                 <h2>Contato</h2>
             <p>Tem um projeto em mente? Entre em contato comigo!</p>
             
-                <address>
-                    Email:<a href="mailto:kaizen_developer@outlook.com">kaizen_developer@outlook.com</a> <br>
-                    Telefone:<a href="tel:+5592986034797">(92) 986034797</a>
-                </address>
+                <form action="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
 
-                <p>© 2024 Rhommar Martinez. Todos os direitos reservados.</p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                    <br>
+
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="orcamento">Orcamento</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem"  cols="20" rows="4" required></textarea>
+                    <br>
+
+                    <input type="submit" value="Enviar">
+
+
+                </form>
+
+                <p>© 2026 Rhommar Martinez. Todos os direitos reservados.</p>
             </section>
 
         </footer>
