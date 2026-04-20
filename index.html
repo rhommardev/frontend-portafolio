@@ -23,7 +23,7 @@
     <section id="sobre">
         <h2>Sobre Mim</h2>
         <img src="./foto.jpg" alt="Foto de Rhommar Martinez" width="150">
-
+        
         <article>
             <p>
                 Olá! Meu nome é Rhommar Martinez, sou um desenvolvedor de software apaixonado por criar soluções
@@ -32,75 +32,114 @@
             </p>
         </article>
 
-        <aside>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>UX/UI: Design de interfaces e experiências do usuário - Figma</li>
-                <li>Desenvolvimento Frontend: HTML, CSS, JavaScript</li>
-                <li>Desenvolvimento Backend: C#, .NET Core</li>
-                <li>Banco de Dados: relacional(MySQL, SQL Server)</li>
-                <li>Analise de dados: Excel, Power BI Dashboard</li>
-                <li>Metodologias Ágeis: Scrum, Kanban,Lean manufacturing</li>
-                <li>Idiomas: Espanhol (nativo), Português (avançado), Inglês (intermediário)</li>
-                <li>Soft Skills: Comunicação, Trabalho em equipe, Resolução de problemas, Adaptabilidade, aprendizado contínuo</li>
-            </ul>
-        </aside>
+    <section id="habilidades">
+
+        <h2 >Habilidades e tecnologias</h2>
+                <!--<ul>
+                    <li>UX/UI: Design de interfaces e experiências do usuário - Figma</li>
+                    <li>Desenvolvimento Frontend: HTML, CSS, JavaScript</li>
+                    <li>Desenvolvimento Backend: C#, .NET Core</li>
+                    <li>Banco de Dados: relacional(MySQL, SQL Server)</li>
+                    <li>Analise de dados: Excel, Power BI Dashboard</li>
+                    <li>Metodologias Ágeis: Scrum, Kanban,Lean manufacturing</li>
+                    <li>Idiomas: Espanhol (nativo), Português (avançado), Inglês (intermediário)</li>
+                    <li>Soft Skills: Comunicação, Trabalho em equipe, Resolução de problemas, Adaptabilidade, aprendizado contínuo</li></ul>-->
+        <table>
+            <tr>
+                <th>Tecnologias</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td>UX/UI</td>
+                <td>Design de interfaces e experiências do usuário - Figma</td>
+            </tr>
+            <tr>
+                <td>Desenvolvimento Frontend</td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+            <tr>
+                <td>Desenvolvimento Backend</td>
+                <td>C#, .NET Core</td>
+            </tr>
+            <tr>
+                <td>Banco de Dados</td>
+                <td>Relacional (MySQL, SQL Server)</td>
+            </tr>
+            <tr>
+                <td>Análise de Dados</td>
+                <td>Excel, Power BI Dashboard</td>
+            </tr>
+            <tr>
+                <td>Metodologias Ágeis</td>
+                <td>Scrum, Kanban, Lean manufacturing</td>
+            </tr>
+            <tr>
+                <td>Idiomas</td>
+                <td>Espanhol (nativo), Português (avançado), Inglês (intermediário)</td>
+            </tr>
+            <tr>
+                <td>Soft Skills</td>
+                <td>Comunicação, Trabalho em equipe, Resolução de problemas, Adaptabilidade, Aprendizado contínuo</td>
+            </tr>
+    </section>
+
     </section>
 
     <section id="projetos">
 
         <h2>Projetos</h2>
 
-        <article>
-            <h3>Site de Portfólio</h3>
+            <article>
+                <h3>Site de Portfólio</h3>
 
-            <p>
-                Criei um site de portfólio para mostrar meus projetos e habilidades, utilizando HTML, CSS e JavaScript
-                para garantir uma experiência visual atraente e responsiva.
-            </p>
-        </article>
+                <p>
+                    Criei um site de portfólio para mostrar meus projetos e habilidades, utilizando HTML, CSS e JavaScript
+                    para garantir uma experiência visual atraente e responsiva.
+                </p>
+            </article>
 
-        <footer>
-            <section id="contato">
-                <h2>Contato</h2>
-            <p>Tem um projeto em mente? Entre em contato comigo!</p>
-            
-                <form action="">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                    <br>
+    </section>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <br>
+    <footer>
 
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone">
-                    <br>
+        <section id="contato">
+                    <h2>Contato</h2>
+                <p>Tem um projeto em mente? Entre em contato comigo!</p>
+                
+                    <form action="">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <br>
 
-                    <label for="assunto">Assunto:</label>
-                    <select id="assunto" name="assunto" required>
-                        <option value="orcamento">Orcamento</option>
-                        <option value="duvida">Dúvida</option>
-                        <option value="outro">Outro</option>
-                    </select>
-                    <br>
-                    
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea name="mensagem" id="mensagem"  cols="20" rows="4" required></textarea>
-                    <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
 
-                    <input type="submit" value="Enviar">
-                    <input type="datetime-local" id="data" name="data">
-                    <br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                        <br>
 
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="orcamento">Orcamento</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                        <br>
+                        
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem"  cols="20" rows="4" required></textarea>
+                        <br>
 
-                </form>
+                        <input type="submit" value="Enviar">
+                        <input type="datetime-local" id="data" name="data">
+                        <br>
+                    </form>
 
-                <p>© 2026 Rhommar Martinez. Todos os direitos reservados.</p>
-            </section>
+                    <p>© 2026 Rhommar Martinez. Todos os direitos reservados.</p>
+        </section>
 
-        </footer>
+    </footer>
 
 </body>
 
